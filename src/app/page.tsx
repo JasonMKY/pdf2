@@ -10,7 +10,7 @@ export default function Home() {
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <div className='mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50'>
           <p className='text-sm font-semibold text-gray-700'>
-            DocuChat is now public!
+            DocuChat is in development!
           </p>
         </div>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
@@ -81,6 +81,113 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Use Cases section */}
+      <section className='mx-auto mb-32 max-w-5xl sm:mt-56'>
+        <div className='mb-12 px-6 lg:px-8'>
+          <div className='mx-auto max-w-2xl sm:text-center'>
+            <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
+              Use Cases
+            </h2>
+            <p className='mt-4 text-lg text-gray-600'>
+              Discover the various ways you can leverage DocuChat to
+              interact with your PDF documents.
+            </p>
+          </div>
+        </div>
+
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {/* Use Case 1 */}
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Research and Annotations
+            </h3>
+            <p className='text-gray-700'>
+              Easily annotate and highlight important sections
+              of your research papers or documents for better
+              understanding and collaboration.
+            </p>
+          </div>
+
+          {/* Use Case 2 */}
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Collaborative Discussions
+            </h3>
+            <p className='text-gray-700'>
+              Engage in discussions and share insights directly
+              within the context of the document, enhancing team
+              collaboration and productivity.
+            </p>
+          </div>
+
+          {/* Use Case 3 */}
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Learning and Education
+            </h3>
+            <p className='text-gray-700'>
+              Create interactive lessons, quizzes, and study
+              materials using your PDF documents, making learning
+              more engaging and effective.
+            </p>
+          </div>
+
+          {/* Additional Use Cases */}
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Books
+            </h3>
+            <p className='text-gray-700'>
+              Dive into a whole new reading experience. Interactively chat with your favorite books.
+            </p>
+          </div>
+
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Scientific Papers
+            </h3>
+            <p className='text-gray-700'>
+              Take research to another level and collaboratively exchange knowledge with a simple chat interface.
+            </p>
+          </div>
+
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Financial Reports
+            </h3>
+            <p className='text-gray-700'>
+              No more boring number crunching. Chat with financial reports and get quick answers.
+            </p>
+          </div>
+
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              User Manuals
+            </h3>
+            <p className='text-gray-700'>
+              Confused about setting up a product? Chat with the user manual and find out exactly what you need to do.
+            </p>
+          </div>
+
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Legal Documents
+            </h3>
+            <p className='text-gray-700'>
+              No more deciphering legal jargon. Get legal documents simplified quickly.
+            </p>
+          </div>
+
+          <div className='p-6 bg-white rounded-lg shadow-lg'>
+            <h3 className='text-xl font-semibold mb-4'>
+              Employee Documents
+            </h3>
+            <p className='text-gray-700'>
+              Training documents become interactive and less boring. Make it fun and enjoyable like an interactive friend.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Feature section */}
       <div className='mx-auto mb-32 mt-32 max-w-5xl sm:mt-56'>
