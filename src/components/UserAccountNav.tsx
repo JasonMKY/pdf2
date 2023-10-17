@@ -13,6 +13,7 @@ import { Icons } from './Icons'
 import Link from 'next/link'
 import { Gem } from 'lucide-react'
 import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs/server'
+import { useEffect, useState } from 'react';
 
 interface UserAccountNavProps {
   email: string | undefined
